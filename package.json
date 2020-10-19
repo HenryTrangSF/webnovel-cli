@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "add": "node ./core/add/index.js $*"
+    "add": "node ./core/add/index.js $*",
+    "delete": "node ./core/delete/index.js $*"
   },
   "keywords": [],
   "author": "Henry Trang",

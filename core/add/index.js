@@ -12,8 +12,9 @@ let URL = process.argv[2];
     if (URL.indexOf("https") > -1) {
         webnovel.add(URL);
     }
-    else {
+    // TO DO
+    /* else {
         console.log("Please include a proper URL in the argument");
         process.exit(1);
-    }
+    } */
 })();
