@@ -155,6 +155,6 @@ exports.add = async function webnovel(URL) {
     }
 
 
-    // console.log("Novel has been successfully added");
-    // process.exit(0);
+    console.log("Novel has been successfully added");
+    process.exit(0);
 }
