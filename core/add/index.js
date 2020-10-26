@@ -1,4 +1,5 @@
 const webnovel = require('./sites/webnovel');
+const wuxiaworld = require('./sites/wuxiaworld');
 
 let URL = process.argv[2];
 
@@ -10,7 +11,12 @@ let URL = process.argv[2];
     }
 
     if (URL.indexOf("https") > -1) {
-        webnovel.add(URL);
+        if (URL.indexOf("webnovel") > -1) {
+            webnovel.add(URL);
+        }
+        if (URL.indexOf("wuxiaworld") > -1) {
+            wuxiaworld.add(URL);
+        }
     }
     // TO DO
     /* else {
