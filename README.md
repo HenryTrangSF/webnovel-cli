@@ -10,9 +10,7 @@ A command line interface for scraping webnovels. Currently only supports Webnove
 
 ## Installing
 
-Simply run `npm install` to install all the relevant packages required to run webnovel-cli. Npm will do the hard work
-
-## Usage
+Simply run `npm install` to install all the relevant packages required to run webnovel-cli. Npm will do the hard work. Login to the Ghost admin console and go to Inegrations and create a new integration. Copy and paste the API URL and Admin API Key into the `.env` file.
 
 ### Adding novels to your Ghost blog
 
